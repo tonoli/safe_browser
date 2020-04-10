@@ -58,8 +58,8 @@ To find out more about the structure of Peruse and the SAFE functionality extend
 #### Build steps
 
 - `git clone https://github.com/maidsafe/safe_browser.git`
-- `git checkout master` (`master` is the stable branch. `dev` is current working branch)
 - `cd safe_browser`
+- `git checkout master` (`master` is the stable branch. `dev` is current working branch)
 - `NODE_ENV=dev yarn` (`NODE_ENV` is needed to install mock libs and to run `yarn mock-dev`).
 - `yarn rebuild`
 
